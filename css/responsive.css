@@ -52,10 +52,11 @@
     display: flex;
     justify-content: space-around;
 }
-.col-4 h3 {
-    margin-bottom: 4px;
-    font-size: 5vw;
+.col-2 h3, .col-3 h3, .col-4 h3 {
+  margin-bottom: 4px;
+  font-size: 3.5vw;
 }
+
 .copyright {
     
     flex-direction: column-reverse;
@@ -69,5 +70,16 @@
 .s-icon li {
     margin: 15px;
 
+}
+.menu-list li a:hover {
+  
+  font-size: 3.2vw;
+
+}
+.menu-list-footer li a{
+  font-size:2.5vw;
+}
+.menu-list-footer li a:hover{
+  font-size:2.7vw;
 }
 }
